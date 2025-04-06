@@ -4,7 +4,8 @@ project:
 website:
   title: "Estatistica Espacial"
   sidebar:
-    style: docked
+    style: floating   # <- Isso ativa o menu retrátil
+    collapse-level: 1
     search: true
     contents:
       - href: index.qmd
@@ -15,7 +16,7 @@ website:
 format:
   html:
     theme: 
-      light: Yeti
+      light: minty
       dark: darkly
     css: styles.css
     toc: true
