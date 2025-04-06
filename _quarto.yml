@@ -15,8 +15,8 @@ website:
 format:
   html:
     theme: 
-      light: Zephyr
-      dark: Sketchy
+      light: Yeti
+      dark: darkly
     css: styles.css
     toc: true
 
