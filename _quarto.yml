@@ -2,16 +2,21 @@ project:
   type: website
 
 website:
-  title: "Estatistica_Espacial.github.io"
-  navbar:
-    left:
+  title: "Estatistica Espacial"
+  sidebar:
+    style: docked
+    search: true
+    contents:
       - href: index.qmd
         text: Home
       - about.qmd
+      - Capitulo1.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: Zephyr
+      dark: Sketchy
     css: styles.css
     toc: true
 

@@ -1,5 +1,5 @@
 ---
-title: "Estatistica_Espacial.github.io"
+title: "Introdução à Estatistica Espacial"
 ---
 
 This is a Quarto website.
