@@ -24,8 +24,7 @@ jobs:
 
       - name: Install R packages
         run: |
-          install.packages(c("quarto", "dplyr", "ggplot2", "sf", "leaflet"))
-
+          Rscript -e 'install.packages(c("quarto", "dplyr", "ggplot2", "sf", "leaflet"))'
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
