@@ -1,25 +1,36 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "Estatistica Espacial"
-  sidebar:
-    style: floating   # <- Isso ativa o menu retrátil
-    collapse-level: 1
-    search: true
-    contents:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-      - Capitulo1.qmd
+  title: "Quarto Websites Workshop"
+  navbar:
+    left:
+      - text: Welcome
+        href: index.qmd
+      - text: Pre-work
+        href: prework.qmd
+    right:
+      - text: Slides
+        menu:
+          - text: 01 - Introduction
+            href: 01-introduction.qmd
+          - text: 02 - Basics
+            href: 02-basics.qmd
+          - text: 03 - Style
+            href: 03-style.qmd
+          - text: 04 - Navigation
+            href: 04-navigation.qmd
+          - text: 05 - CSS and SCSS
+            href: 05-css.qmd
+          - text: 06 - Listings
+            href: 06-listings.qmd
+          - text: 07 - Roundup
+            href: 07-roundup.qmd
 
 format:
   html:
-    theme: 
-      light: minty
-      dark: darkly
-    css: styles.css
     toc: true
-
-
-
+    theme:
+      - website-styles.scss
+      - cosmo
