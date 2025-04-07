@@ -22,16 +22,6 @@ jobs:
         with:
           r-version: '4.2.0'
       
-      - name: Install system dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y libudunits2-dev libgdal-dev libgeos-dev libproj-dev
-
-       - name: Install R packages
-          run: |
-            Rscript -e 'install.packages(c("quarto", "dplyr", "ggplot2", "sf", "leaflet"))'
-     
-      
       - name: Install R Dependencies
         uses: r-lib/actions/setup-renv@v2
         with:
