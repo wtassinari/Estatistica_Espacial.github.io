@@ -29,7 +29,7 @@ quarto use template EmilHvitfeldt/website-template
 
 ## Start with a template
 
-3.  Follow the prompts:
+3.  Testando:
 
 ``` {.default filename="Terminal"}
 Quarto templates may execute code when documents are rendered. If you do not 

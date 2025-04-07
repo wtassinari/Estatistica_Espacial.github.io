@@ -37,98 +37,98 @@
   {
     "objectID": "02-basics.html#start-with-a-template",
     "href": "02-basics.html#start-with-a-template",
-    "title": "Quarto Websites Workshop",
+    "title": "Estatística Espacial",
     "section": "Start with a template",
     "text": "Start with a template\n\nStart somewhere logical:\n\n\n\nTerminal\n\ncd ~/Documents\n\n\nGet the website template:\n\n\n\nTerminal\n\n\nquarto use template EmilHvitfeldt/website-template"
   },
   {
     "objectID": "02-basics.html#start-with-a-template-1",
     "href": "02-basics.html#start-with-a-template-1",
-    "title": "Quarto Websites Workshop",
+    "title": "Estatística Espacial",
     "section": "Start with a template",
-    "text": "Start with a template\n\nFollow the prompts:\n\n\n\nTerminal\n\nQuarto templates may execute code when documents are rendered. If you do not \ntrust the authors of the template, we recommend that you do not install or \nuse the template.\n? Do you trust the authors of this template (Y/n) › Y\n? Create a subdirectory for template? (Y/n) › Y\n? Directory name: › website\n\n\nOpen the folder:\nRStudio: New Project &gt; Existing Directory &gt;\nVS Code: File &gt; Open Folder &gt;\nOpen index.qmd"
+    "text": "Start with a template\n\nTestando:\n\n\n\nTerminal\n\nQuarto templates may execute code when documents are rendered. If you do not \ntrust the authors of the template, we recommend that you do not install or \nuse the template.\n? Do you trust the authors of this template (Y/n) › Y\n? Create a subdirectory for template? (Y/n) › Y\n? Directory name: › website\n\n\nOpen the folder:\nRStudio: New Project &gt; Existing Directory &gt;\nVS Code: File &gt; Open Folder &gt;\nOpen index.qmd"
   },
   {
     "objectID": "02-basics.html#workflow",
     "href": "02-basics.html#workflow",
-    "title": "Quarto Websites Workshop",
+    "title": "Estatística Espacial",
     "section": "Workflow",
     "text": "Workflow\n\nPreview. Edit. Save. Preview."
   },
   {
     "objectID": "02-basics.html#preview",
     "href": "02-basics.html#preview",
-    "title": "Quarto Websites Workshop",
+    "title": "Estatística Espacial",
     "section": "Preview",
-    "text": "Preview\n\nRStudioVS CodeTerminal\n\n\n\n\nCurrent page\n\nCmd/Ctrl + Shift + K\n\nWhole site\nBuild &gt; Render Website\n\n\n\n\n\n\n\nCurrent page\n\nCmd/Ctrl + Shift + K\n\nWhole site\nNo command, use Terminal:\n\n\nTerminal\n\nquarto preview \n\n\n\nRequires Quarto Extension\n\n\n\n\nCurrent page\n\n\nTerminal\n\nquarto preview index.qmd\n\n\nWhole site\n\n\nTerminal\n\nquarto preview"
+    "text": "Preview\n\nRStudioVS CodeTerminal\n\n\n\n\nCurrent page\n\nCmd/Ctrl + Shift + K\n\nWhole site\nBuild &gt; Render Website\n\n\n\n\n\n\nCurrent page\n\nCmd/Ctrl + Shift + K\n\nWhole site\nNo command, use Terminal:\n\n\nTerminal\n\nquarto preview \n\n\nRequires Quarto Extension\n\n\n\n\nCurrent page\n\n\nTerminal\n\nquarto preview index.qmd\n\n\nWhole site\n\n\nTerminal\n\nquarto preview"
   },
   {
     "objectID": "02-basics.html#your-turn",
     "href": "02-basics.html#your-turn",
-    "title": "Quarto Websites Workshop",
+    "title": "Estatística Espacial",
     "section": "Your Turn",
     "text": "Your Turn\n\nGet the starter template. (On Posit Cloud? Skip this step.)\nOpen index.qmd\nPreview index.qmd\nEdit title and subtitle in the index.qmd YAML to reflect your site\nPreview\nWhat else is in index.qmd? Can you match the contents of index.qmd with contents of the webpage?\n\n\n  \n    −\n    +\n \n 05:00"
   },
   {
     "objectID": "02-basics.html#index.qmd-components",
     "href": "02-basics.html#index.qmd-components",
-    "title": "Quarto Websites Workshop",
+    "title": "Estatística Espacial",
     "section": "index.qmd Components",
     "text": "index.qmd Components\n\n\nNo peeking"
   },
   {
     "objectID": "02-basics.html#page-structure",
     "href": "02-basics.html#page-structure",
-    "title": "Quarto Websites Workshop",
+    "title": "Estatística Espacial",
     "section": "Page Structure",
     "text": "Page Structure\n\n\n\n\nindex.qmd\n\n---\ntitle: \"Alicia\"\nsubtitle: \"Data Scientist\"\n# `profile.jpg` photo by Jan Tinneberg on https://unsplash.com\nimage: profile.jpg\nabout: # https://quarto.org/docs/websites/website-about.html\n  template: jolla\n  links:\n    - icon: github\n      text: Github\n      href: https://github.com\n    - icon: linkedin\n      text: LinkedIn\n      href: https://linkedin.com\n---\n\nA little bit about me and my life.\n\n## Education\n\nUniversity of XYZ, City \\| Location \\| Sept 20XX - June 20XX\n\n## Experience\n\nWorkplace \\| Job title \\| April 20XX - present\n\n\nWebpages are like any other Quarto document:\n\nStart with a YAML header\nCan include code cells\nEverything else is markdown content\n\nUse the visual editor (if you like)"
   },
   {
     "objectID": "02-basics.html#about-pages",
     "href": "02-basics.html#about-pages",
-    "title": "Quarto Websites Workshop",
+    "title": "Estatística Espacial",
     "section": "About Pages",
     "text": "About Pages\nSpecial pages controlled by the about key in YAML.\nContent and YAML values are combined using a template:\n---\nabout:\n  template: jolla\n---\nTemplates: jolla, trestles, solana, marquee, or broadside\n\nhttps://quarto.org/docs/websites/website-about.html"
   },
   {
     "objectID": "02-basics.html#your-turn-1",
     "href": "02-basics.html#your-turn-1",
-    "title": "Quarto Websites Workshop",
+    "title": "Estatística Espacial",
     "section": "Your Turn",
     "text": "Your Turn\n\nEdit the content in index.qmd to reflect you.\nTry different templates and pick one.\nEdit the links to point at your own profiles, or add different links.\nExperiment with image-shape.\n\n\n  \n    −\n    +\n \n 04:00"
   },
   {
     "objectID": "02-basics.html#image",
     "href": "02-basics.html#image",
-    "title": "Quarto Websites Workshop",
+    "title": "Estatística Espacial",
     "section": "image",
-    "text": "image\nUsed in about template, and social cards.\n\n\n\n\nindex.qmd\n\n---\nimage: profile.jpg\n---\n\n\nwebsite/\n├── _quarto.yml\n├── index.qmd\n└── profile.jpg\n\n\nUse a path relative to index.qmd"
+    "text": "image\nUsed in about template, and social cards.\n\n\n\n\nindex.qmd\n\n---\nimage: profile.jpg\n---\n\n\nwebsite/\n├── _quarto.yml\n├── index.qmd\n└── profile.jpg\n\nUse a path relative to index.qmd"
   },
   {
     "objectID": "02-basics.html#image-1",
     "href": "02-basics.html#image-1",
-    "title": "Quarto Websites Workshop",
+    "title": "Estatística Espacial",
     "section": "image",
-    "text": "image\nUsed in about template, and social cards.\n\n\n\n\nindex.qmd\n\n---\nimage: images/profile.jpg\n---\n\n\nwebsite/\n├── _quarto.yml\n├── images/\n│   └──  profile.jpg\n└── index.qmd\n\n\nUse a path relative to index.qmd"
+    "text": "image\nUsed in about template, and social cards.\n\n\n\n\nindex.qmd\n\n---\nimage: images/profile.jpg\n---\n\n\nwebsite/\n├── _quarto.yml\n├── images/\n│   └──  profile.jpg\n└── index.qmd\n\nUse a path relative to index.qmd"
   },
   {
     "objectID": "02-basics.html#your-turn-2",
     "href": "02-basics.html#your-turn-2",
-    "title": "Quarto Websites Workshop",
+    "title": "Estatística Espacial",
     "section": "Your Turn",
     "text": "Your Turn\nReplace the image with one that reflects you or your site.\n\n  \n    −\n    +\n \n 04:00"
   },
   {
     "objectID": "02-basics.html#website-structure",
     "href": "02-basics.html#website-structure",
-    "title": "Quarto Websites Workshop",
+    "title": "Estatística Espacial",
     "section": "Website Structure",
     "text": "Website Structure\nA minimal website has two files: index.qmd and _quarto.yml\n\nindex.qmd: Renders to index.html, your home page.\n_quarto.yml: Controls project and website properties.\n\nWhen rendered you will get a _site/ folder. This contains everything needed to serve the site."
   },
   {
     "objectID": "02-basics.html#quarto.yml",
     "href": "02-basics.html#quarto.yml",
-    "title": "Quarto Websites Workshop",
+    "title": "Estatística Espacial",
     "section": "_quarto.yml",
     "text": "_quarto.yml\n\n\n_quarto.yml\n\nproject:\n  type: website\n\nwebsite:\n  title: \"Home\"\n  open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph\n  page-footer: \"Made with ❤️ and Quarto\"\n  navbar:\n    right:\n      - text: Home\n        href: index.qmd\n\nformat:\n  html:\n    theme: [cosmo, styles.scss]"
   },
