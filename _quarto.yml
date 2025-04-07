@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Quarto Websites Workshop"
+  title: "Estatística Espacial"
   navbar:
     left:
       - text: Welcome

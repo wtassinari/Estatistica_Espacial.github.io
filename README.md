@@ -1,20 +1,20 @@
-Quarto Websites
+Tópico Especial Estatística Espacial
 ================
 
-### posit::conf(2024)
+### Programa de Pós-graduação em Estatística Aplicada
 
-by Charlotte Wickham, Emil Hvitfeldt
+Prof. Wagner Tassinari
 
 -----
 
-:spiral_calendar: August 12, 2024  
+:spiral_calendar: Juho 12, 2025  
 :alarm_clock:     09:00 - 17:00  
-:hotel:           ROOM TBD  
+:university:          Sala ??????  
 :writing_hand:    [pos.it/websites_24](http://pos.it/websites_24)
 
 -----
 
-## Description
+## Descrição
 
 Do you need a professional website to showcase your work? Or have you got an idea for a website at work, but it needs to reflect your organization's brand? If you've used Quarto to produce a document, you've already got the technical skills to create a Quarto website. In this workshop, you'll learn everything else you need to build a website and customize its appearance.
 
